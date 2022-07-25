@@ -1,0 +1,19 @@
+
+
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-weight: 500;
+  }
+  
+  
+  
+  
+  
+  *{
+    font-family : myFirstFont  !important;
+  }
+  
+  
