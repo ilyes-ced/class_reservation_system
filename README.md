@@ -29,6 +29,9 @@ login             |  register
 :-------------------------:|:-------------------------:
 ![](images/login.png)  |  ![](images/login2.png)
 
+
+stats1             |  stats2
+:-------------------------:|:-------------------------:
 ![](images/dark_stats.png)  |  ![](images/dark_stats2.png)
 
 ![](images/users_list_dark.png)
