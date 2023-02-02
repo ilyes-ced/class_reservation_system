@@ -22,9 +22,6 @@ database phpmyadmin 10.4.21 mariaDB
 dark             |  light
 :-------------------------:|:-------------------------:
 ![](images/main_dark.png)  |  ![](images/main_light.png)
-
-dark             |  light
-:-------------------------:|:-------------------------:
 ![](images/schedule_dark.png)  |  ![](images/schedule_light.png)
 
 
@@ -32,9 +29,6 @@ login             |  register
 :-------------------------:|:-------------------------:
 ![](images/login.png)  |  ![](images/login2.png)
 
-
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
 ![](images/dark_stats.png)  |  ![](images/dark_stats2.png)
 
 ![](images/users_list_dark.png)
