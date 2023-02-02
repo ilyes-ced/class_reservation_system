@@ -128,8 +128,13 @@ $sql13="CREATE table time(
   period4 varchar(255)  not null
 )";
 $sql14="INSERT into time values('4','8:00 - 9:30','9:30 - 11:00','11:00  - 11:30','11:30 - 13:00')";
-$sql15="INSERT into grades values('some grade')";
-$sql16="INSERT into departements values('some departement')";
+$sql15="INSERT into grades values('MBA')";
+$sql15="INSERT into grades values('MAA')";
+$sql15="INSERT into grades values('Profrssor')";
+$sql15="INSERT into grades values('researcher')";
+$sql16="INSERT into departements values('some IFA')";
+$sql16="INSERT into departements values('some TLSI')";
+$sql16="INSERT into departements values('some MI')";
 
 
 $sql171="INSERT into rooms(room,indexes) values('AMPHI ','1')";
