@@ -294,62 +294,14 @@ $result = $query->execute();
     
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     echo "Tables CREATEd successfully";
   } catch(PDOException $e) {
     echo $sql . "<br>" . $e->getMessage();
   }
   
-
-
-
-
-
-
-
-
-
-
-
 }
 
-
-
 ?>
-
-
-
-
-
-
-
-
-
 
 
 

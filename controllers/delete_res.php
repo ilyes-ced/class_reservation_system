@@ -1,23 +1,7 @@
 <?php
-  
-  
-
 
 require('../pages/connect.php');
    
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 if($_POST['id'][0]=='c'){
     $req = $bdd->query('UPDATE table_amphi SET '.$_POST['id'].'="/" WHERE datee="'.$_POST['date'].'"');
@@ -47,35 +31,5 @@ if($_POST['id'][0]=='c'){
      'v3'=>$_POST['id'],
     ));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>

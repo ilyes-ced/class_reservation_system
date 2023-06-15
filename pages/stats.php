@@ -339,135 +339,6 @@ $mine_types2[]='tp classes';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function hex2rgb( $color ) {
 
   if ($color[0] == '#') {
@@ -599,124 +470,6 @@ for($i=0;$i<count($arar);$i++){
   array_push($colis2, 'rgb(255,127,80) ','rgb(019,112,214)','rgb(218,112,214)');
 
 }
-
-
-//for back solid and biorders none
-/*
-
-  array_push($psg,$arar[$i],$arar2[$i],$arar3[$i]);
-  array_push($lbl,'amphi','td','tp');
-  array_push($colis, $colorcolor,$colorcolor,$colorcolor);
-
-  //array_push($colis, 'rgb(255,127,80)','rgb(019,112,214)','rgb(218,112,214)');
-  array_push($colis2, 'rgb(255,127,80) ','rgb(019,112,214)','rgb(218,112,214)');
-  */
-
-
-
-/*
-
-  array_push($psg,$arar[$i],$arar2[$i],$arar3[$i]);
-  array_push($lbl,'amphi','td','tp');
-  array_push($colis, 'rgb(255,127,80,0.1) ','rgb(019,112,214,0.1)','rgb(218,112,214, 0.1)');
-
-  //array_push($colis, 'rgb(255,127,80)','rgb(019,112,214)','rgb(218,112,214)');
-  array_push($colis2, 'rgb(255,127,80,0.1) ','rgb(019,112,214,0.1)','rgb(218,112,214, 0.1)');
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 $rooms_res1=array();
@@ -856,33 +609,6 @@ foreach($rooms_res3 as $key => $value) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $array_users_amphi=array();
 $array_users_td=array();
 $array_users_atp=array();
@@ -946,48 +672,6 @@ while($fgh=$ress->fetch()){
   
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1076,45 +760,6 @@ foreach($krkr as $key => $value) {
 
  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1207,55 +852,6 @@ foreach($krkr as $key => $value) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $days_ar['Sunday']=0;
 $days_ar['Monday']=0;
 $days_ar['Tuesday']=0;
@@ -1311,46 +907,6 @@ foreach($days_ar as $key => $value) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $days_ar11['Sunday']=0;
 $days_ar11['Monday']=0;
 $days_ar11['Tuesday']=0;
@@ -1376,13 +932,6 @@ while($lll=$resvs11->fetch()){
 }
 
 
-
-
-
-
-
-
-
 foreach($days_ar11 as $key => $value) {
 
 /*
@@ -1404,74 +953,6 @@ foreach($days_ar11 as $key => $value) {
 
  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 $ffd= date('Y-m-d');
@@ -2053,140 +1534,12 @@ foreach($array_p4 as $key => $value) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        
- 
-        
         $ffd= date('Y-m-d');
         
         
         $before_year = date('Y-m-d', strtotime($ffd . ' -1 year'));
         $before_month = date('Y-m-d', strtotime($ffd . ' -1 month'));
         $before_week = date('Y-m-d', strtotime($ffd . ' -7 day'));
-        
-        
-        
-        
         
         
         
@@ -2749,41 +2102,7 @@ foreach($array_p4 as $key => $value) {
         
          // echo $key ."=>". $value."<br/>";
         }
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
 $fzefzef=$bdd->query('SELECT * from reservations1  where  users="'.$_COOKIE['login'].'" union SELECT * from reservations2  where  users="'.$_COOKIE['login'].'" union SELECT * from reservations3 where  users="'.$_COOKIE['login'].'"');
 $count1=$fzefzef->Rowcount(); 
@@ -2794,42 +2113,13 @@ $fzefzef2=$bdd->query('SELECT * from reservations1  union SELECT * from reservat
 $count2=$fzefzef2->Rowcount(); 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
  $rrr1=str_pad(dechex(mt_rand(0, 0xFFFFFF)), 6, '0', STR_PAD_LEFT);;
   $rrr= 'rgb('.hex2rgb($rrr1)['red'].','.hex2rgb($rrr1)['green'].','.hex2rgb($rrr1)['blue'].',0.1)';
   $rrr2= 'rgb('.hex2rgb($rrr1)['red'].','.hex2rgb($rrr1)['green'].','.hex2rgb($rrr1)['blue'].')';
   $re1[]=$rrr;
    $re2[]=$rrr2;
 
-
-
-
-
-
-
-   
 ?>
-
-
-
-
-
-
-
-    
-
 
 <div class='bar'>
 
@@ -2850,34 +2140,6 @@ $count2=$fzefzef2->Rowcount();
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3048,125 +2310,10 @@ $count2=$fzefzef2->Rowcount();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class='block12' >
 
-
-
-
-
-
-<!--
-<div class='bar'>
-
-
-<div class='person_container'>
-
-<div class='all'>
-<i class="bi bi-people"></i>
-</div>
-
-<div class='me'>
-<i class="bi bi-person"></i>
-</div>
-
-</div>
-
-
-
-
-
-<div class='graph_container'>
-
-<div class='line'>
-<i class="bi bi-graph-up"></i>
-
-</div>
-
-<div class='bars'>
-  <i class="bi bi-bar-chart-line"></i>
-
-</div>
-</div>
-
-
-
-
-
-
-<div class='graph_container2'>
-
-<div class='pie'>
-<i class="bi bi-pie-chart-fill"></i>
-</div>
-
-<div class='donut'>
-<i class="bi bi-pie-chart"></i>
-</div>
-
-</div>
-
-
-
-
-
-
-<div class='duration_container'>
-<div class='year all_time'>
-<i class="bi bi-table"></i>
-</div>
-
-<div class='year ggh'>
-<i class="bi bi-table"></i>
-</div>
-
-
-
-<div class='month'>
-<i class="bi bi-calendar-month"></i>
-</div>
-
-
-
-
-<div class='week'>
-<i class="bi bi-calendar4-week"></i>
-</div>
-
-
-
-</div>
-
-
-</div>
- -->
 
 
 <div class='info_cont ss'>
@@ -3234,53 +2381,8 @@ $count2=$fzefzef2->Rowcount();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class='block2' >
 
-
-
-
-
-
-<!--
-
-<div  class='dig1'>
-<canvas  id="res_me_bars"  ></canvas>
-</div>
-
-
-
-
-
-      -->
 
       <div class='dig3'>
 <canvas  id="stacked" ></canvas>
@@ -3358,21 +2460,6 @@ echo $list3;
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3480,104 +2567,12 @@ echo $list3;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 var ttgg1={
 
 
-
-  
 
 type: 'line',
 data: {
@@ -4199,26 +3194,6 @@ options: {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var ctx = document.getElementById('days2').getContext('2d');
 var days_pie1 = new Chart(ctx,ppie1);
 
@@ -4256,9 +3231,6 @@ var pp1141 = new Chart(ctx, ttgg1);
 
 $('.bars').click(function(){
 
-  
-
-
 
   ttgg1.type = "bar";
   ttgg21.type = "bar";
@@ -4274,29 +3246,16 @@ $('.bars').click(function(){
   ttgg41.options.scales.x.stacked = true;
   ttgg41.options.scales.y.stacked = true;
 
-
-
     pp111.update();
     pp1121.update();
     pp1131.update();
     pp1141.update();
 
     
-
-
-
-
-
-
-
 });
 
 
 $('.line').click(function(){
-
-  
-
-
 
   ttgg1.type = "line";
   ttgg21.type = "line";
@@ -4319,18 +3278,7 @@ $('.line').click(function(){
     pp1131.update();
     pp1141.update();
 
-  
-
-
-
-
-
-
-
 });
-
-
-
 
 
 
@@ -4346,14 +3294,6 @@ days_pie1.update();
 });
 
 
-
-
-
-
-
-
-
-
 $('.donut').click(function(){
 
 
@@ -4365,100 +3305,7 @@ time_pie1.update();
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var ttgg={
-
-
-
   
 
 type: 'line',
@@ -5080,27 +3927,6 @@ options: {
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var ctx = document.getElementById('days').getContext('2d');
 var days_pie = new Chart(ctx,ppie);
 
@@ -5213,10 +4039,6 @@ $('.line').click(function(){
 
 
 
-
-
-
-
 $('.pie').click(function(){
 
   ppie.type = "pie";
@@ -5229,14 +4051,6 @@ $('.pie').click(function(){
 });
 
 
-
-
-
-
-
-
-
-
 $('.donut').click(function(){
 
 
@@ -5246,238 +4060,6 @@ $('.donut').click(function(){
   time_pie.update();
     
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-var ctx = document.getElementById('res_me_bars').getContext('2d');
-
-var res_me_bars_chart = new Chart(ctx, {
-  
-    type: 'bar',
-data:{
-  labels: <?php echo json_encode($mine_types2);?>,
-  datasets: [{
-    axis: 'y',
-    label: 'number of reservations',
-    data:<?php echo json_encode($mine_types);?>,
-    fill: false,
-    backgroundColor: [
-      'rgb(255,127,80,0.1) ',
-      'rgb(019,112,214,0.1)',
-      'rgba(218,112,214, 0.1)'
-     
-    ],
-    borderColor: [
-      'rgb(255,127,80)',
-      'rgb(019,112,214)',
-      'rgb(218,112,214)'
-    ],
-    borderWidth: 2,
-   
-    
-  }]
-},
-labels:<//?php echo json_encode($mine_types2);?>,
-
-
-    options: {
-      
-     indexAxis: 'y',
-        scales: {
-      xAxes: [{
-        ticks: {
-          beginAtZero: true
-        }
-      }],
-            y: {
-              
-                beginAtZero: true
-            }
-        }
-    }
-});
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php
-
-   /*
-$perc=100/(array_sum($all_types));
-
-for ($i = 0; $i < count($all_types); $i++) {
-  
-  $all_types[$i]=round($all_types[$i]*$perc, 2);
-}
-
-
-for ($i = 0; $i < count($psg); $i++) {
- 
-
-  if(isset($psg[$i+2])){
-    
-      $percc=100/($psg[$i]+$psg[$i+1]+$psg[$i+2]);
-       $psg[$i]=round($psg[$i]*$percc, 2); 
-       if(isset($psg[$i+1])){$psg[$i+1]=round($psg[$i+1]*$percc, 2);}
-       if(isset($psg[$i+2])){$psg[$i+2]=round($psg[$i+2]*$percc, 2);}
-     
-    
-       
-
-    
-  }elseif(isset($psg[$i+1])){
-
-      $percc=100/($psg[$i]+$psg[$i+1]+$psg[$i+2]);
-       $psg[$i]=round($psg[$i]*$percc, 2); 
-       if(isset($psg[$i+1])){$psg[$i+1]=round($psg[$i+1]*$percc, 2);}
-   
-       
-
-    
-
-  }else{
-      $percc=100/($psg[$i]+$psg[$i+1]+$psg[$i+2]);
-       $psg[$i]=round($psg[$i]*$percc, 2); 
-    
-       
-  }
-
-  
-  
-
-
-
-
- 
-}
-
-*/
-
-
-
-
-?>
-
-
-
-
 
 
 
@@ -5528,59 +4110,6 @@ var res_me_bars_chart = new Chart(ctx, {
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php
    
@@ -5851,60 +4380,6 @@ labels:<?php echo json_encode($room_res111f);?>,
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var ctx = document.getElementById('stacked').getContext('2d');
 var stacked = {
   
@@ -5996,158 +4471,11 @@ for (let i = 0; i <5; i++) {
  // stacked.data.datasets.push(i+5);
   }
 
-
-
   new Chart(ctx,stacked );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </script>
 
-
-
-
-
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <footer class="text-center text-lg-start text-muted">
   <div class="container">

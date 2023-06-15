@@ -1,17 +1,13 @@
 <?php
-
-
-
-
-$mm=array();
+  $mm=array();
 
   $date1=$_POST['date'];
 
   require('../pages/connect.php');
-   $device11='';
-   $device22='';
-   $device33='';
-   $device44='';
+  $device11='';
+  $device22='';
+  $device33='';
+  $device44='';
    
 
 

@@ -26,15 +26,7 @@ if(isset($_POST['ab'])){
   $d7 = date('Y-m-d', strtotime($d1 . ' +6 day'));
 
 }
-/*
-echo $d1.'    ';
-echo $d2.'    ';
-echo $d3.'    ';
-echo $d4.'    ';
-echo $d5.'    ';
-echo $d6.'    ';
-echo $d7.'    ';
-*/
+
 
 
 $req = $bdd->query("SELECT * FROM time");
@@ -84,15 +76,6 @@ $row8='<div class="table-row "><div class="table-cell">
 
 
 
-/*
-$row1='<div class="table-row ">';
-$row2='<div class="table-row ">';
-$row3='<div class="table-row ">';
-$row4='<div class="table-row ">';
-$row5='<div class="table-row ">';
-$row6='<div class="table-row ">';
-$row7='<div class="table-row ">';
-*/
 
 
 $res1 = $bdd->query("SELECT * FROM reservations1 where users='".$_COOKIE['login']."'and datee='".$d1."' union SELECT * FROM reservations2 where users='".$_COOKIE['login']."'and datee='".$d1."' union SELECT * FROM reservations3 where users='".$_COOKIE['login']."'and datee='".$d1."'");
@@ -554,27 +537,6 @@ fa($array7,$ar7);
 
 
 
-/*
-
-while($f2=$res2->fetch()){
-
-}
-while($f3=$res3->fetch()){
-
-}
-while($f4=$res4->fetch()){
- 
-}
-while($f5=$res5->fetch()){
-
-}
-while($f6=$res6->fetch()){
- 
-}
-while($f7=$res7->fetch()){
-
-}
-*/
 
 
 

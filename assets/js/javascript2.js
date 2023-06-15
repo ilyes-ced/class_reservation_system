@@ -40,45 +40,15 @@ $('.dropbtn').mouseout(function (){
     
 });
 
-
-
-
-
-
-
-
     if ( window.history.replaceState ) {
         window.history.replaceState( null, null, window.location.href );
     }
-
-
-
-
-
-
-
-
-
-
-    
 
     $(document).click(function(){
         $(".modal_res").hide(); 
        });
        
 
-
-
-
-
-
-
-
-
-
-
-
-       
        $(document).on('click', '.modal_res',function(event) {
         event.stopImmediatePropagation();
         
@@ -87,12 +57,6 @@ $('.dropbtn').mouseout(function (){
     
 
     var modal = document.getElementById("mymodal_res");
-
-
-    
-
-
-
 
 
         window.onclick = function(event) {
@@ -110,19 +74,6 @@ $('.dropbtn').mouseout(function (){
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     $(".table_cell").click(function(){
 
 alert('gg');
@@ -137,51 +88,12 @@ alert('gg');
         
             });
         
-
-
-
-
-
-
     $("#change_the_mode").click(function(){
         
         $("#some_some").value='ff';
         $("#mode_hidden_form").submit()
     });
-    
-    
-
-/*
-
-    function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-      
-      
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-          var dropdowns = document.getElementsByClassName("dropdown-content");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      }
-    
-
-
-      $("#ggmm").click(function(){
-          alert('egeg');
-        myFunction();
-      });
-
-
-*/
-
-
+ 
 
 $(".refuse_btn").click(function(){
     var id = $(this).parent().parent().parent().attr('id');
@@ -285,36 +197,7 @@ $(".refuse_btn").click(function(){
      if(gg=="Save"){
         $('#this_form2').submit();}
     });
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-    document.getElementById("logout").onclick = function() {
-        document.getElementById("yourFormId").submit();
-    }
-*/
-
-
-
-
-   
 
     $(".trash").click(function(){
 
@@ -338,42 +221,6 @@ $(".refuse_btn").click(function(){
     });
 
 
-/*
-
-    $('.table-box').load('.to_update', function() {
-        $('.table-cell').each(function(){
-  
-            if($(this).find('a').text()[0]=='A'){
-           // alert($(this).text());
-            $(this).css({"background-color":"coral"});
-            }
-            
-            if($(this).find('a').text()[1]=='D'){
-             // alert($(this).text());
-             $(this).css({"background-color":"gold"});
-            }
-            
-            if($(this).find('a').text()[1]=='P'){
-             // alert($(this).text());
-              $(this).css({"background-color":"raspberry"});
-            }
-            
-            
-             });
-            
-    });
- 
-*/
-
-
-
-
-
-
-
-
-
-
 
     $(".edit-btn").click(function(){
 
@@ -389,10 +236,6 @@ $(".refuse_btn").click(function(){
             $(".fieldset").prop( "disabled", true );
             $(this).text( "Edit My Informations");
         }
-
- 
-
- 
 
     
 });

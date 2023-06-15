@@ -12,16 +12,4 @@ $req->execute(array(
 
 require('../pages/disconnect.php');
 
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
